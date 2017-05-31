@@ -22,6 +22,15 @@
          <URL path="public_html/Login.jsp"/>
          <encoding>windows-1252</encoding>
       </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/LoginForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/LoginAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ConnectDB.java"/>
+      </Item>
    </listOfChildren>
    <ownerMap/>
    <projectDocPath>

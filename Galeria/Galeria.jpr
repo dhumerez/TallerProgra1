@@ -19,7 +19,7 @@
          <URL path="src/mypackage1/ApplicationResources.properties"/>
       </Item>
       <Item class="oracle.jdeveloper.model.JspSourceNode">
-         <URL path="public_html/Login.jsp"/>
+         <URL path="public_html/Login.jsp" id="0"/>
          <encoding>windows-1252</encoding>
       </Item>
       <Item class="oracle.jdeveloper.model.JavaSourceNode">
@@ -30,6 +30,23 @@
       </Item>
       <Item class="oracle.jdeveloper.model.JavaSourceNode">
          <URL path="src/mypackage1/ConnectDB.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/Mala.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/Menu.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ClaseGal.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/MenuForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/MenuAction.java"/>
       </Item>
    </listOfChildren>
    <ownerMap/>
@@ -131,7 +148,7 @@
                         <programArguments class="java.lang.String"/>
                         <runActiveFile>true</runActiveFile>
                         <runDirectoryURL/>
-                        <targetURL/>
+                        <targetURL idref="0"/>
                         <useProxy>true</useProxy>
                      </Value>
                   </Item>

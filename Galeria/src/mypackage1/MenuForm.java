@@ -4,11 +4,12 @@ import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionError;
 import org.apache.struts.action.ActionMapping;
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 
-public class LoginForm extends ActionForm 
+public class MenuForm extends ActionForm 
 {
-  String usuario;
-  String clave;
+  ArrayList tabla;
+  String opcion;
 
   /**
    * Reset all properties to their default values.
@@ -31,23 +32,23 @@ public class LoginForm extends ActionForm
     return super.validate(mapping, request);
   }
 
-  public String getUsuario()
+  public ArrayList getTabla()
   {
-    return usuario;
+    return tabla;
   }
 
-  public void setUsuario(String newUsuario)
+  public void setTabla(ArrayList newTabla)
   {
-    usuario = newUsuario;
+    tabla = newTabla;
   }
 
-  public String getClave()
+  public String getOpcion()
   {
-    return clave;
+    return opcion;
   }
 
-  public void setClave(String newClave)
+  public void setOpcion(String newOpcion)
   {
-    clave = newClave;
+    opcion = newOpcion;
   }
 }

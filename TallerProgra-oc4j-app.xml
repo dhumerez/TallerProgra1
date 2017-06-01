@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE orion-application PUBLIC "-//Evermind//DTD J2EE Application runtime 1.2//EN" "http://xmlns.oracle.com/ias/dtds/orion-application.dtd">
+<orion-application>
+   <web-module id="TallerProgra-Galeria-webapp" path="C:\jdev9032\jdev\mywork\TallerProgra1\Galeria\public_html"/>
+  <log>
+    <file path="TallerProgra-oc4j-app.log"/>
+  </log>
+   <data-sources path="C:\jdev9032\jdev\mywork\TallerProgra1\TallerProgra-data-sources.xml"/>
+</orion-application>

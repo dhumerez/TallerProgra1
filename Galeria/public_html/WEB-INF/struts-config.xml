@@ -4,9 +4,14 @@
   <form-beans>
     <form-bean name="LoginForm" type="mypackage1.LoginForm"/>
     <form-bean name="LoginForm" type="mypackage1.LoginForm"/>
+    <form-bean name="MenuForm" type="mypackage1.MenuForm"/>
   </form-beans>
   <action-mappings>
-    <action path="/inicio" type="mypackage1.LoginAction"/>
+    <action path="/inicio" type="mypackage1.LoginAction" name="LoginForm" scope="request">
+      <forward name="ok" path="/Menu.jsp"/>
+      <forward name="nook" path="/Mala.jsp"/>
+    </action>
+    <action path="/menu" type="mypackage1.MenuAction"/>
   </action-mappings>
   <message-resources parameter="mypackage1.ApplicationResources"/>
 </struts-config>

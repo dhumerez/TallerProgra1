@@ -14,7 +14,7 @@ GALERIA
 <html:form action="/inicio">
 <table  width="350" align="center" >
 <tr>
-    <td colspan="2" class="boxhead" ><bean:message key="tit.prompt" /></td>
+    <td colspan="2" class="boxhead" >GALERIA DE ARTE</td>
     
 </tr>
 <tr>
@@ -22,7 +22,7 @@ GALERIA
     <td><html:text property="usuario" /></td>
 </tr>
 <tr>
-    <td><bean:message key="cla.prompt" /></td>
+    <td>Contraseña</td>
     <td><html:password property="clave" />
 </td>
 </tr>

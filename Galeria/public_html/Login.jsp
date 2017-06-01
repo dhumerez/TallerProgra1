@@ -28,6 +28,7 @@ GALERIA
 </tr>
 <tr>
     <td colspan="2" class="boton2"><html:submit value="ingresar" /></td>
+   
     
     
 </tr>
@@ -35,6 +36,9 @@ GALERIA
 
 
 </html:form>
+
+
+
 
 
 

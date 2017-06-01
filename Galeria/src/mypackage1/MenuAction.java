@@ -33,6 +33,12 @@ public class MenuAction extends Action
 
  MenuForm men = (MenuForm) form;
     String op = men.getOpcion();
+      ConnectDB conn3 =new ConnectDB();
+        Connection cn = null;
+         ResultSet itConsulta = null;
+         String id="";
+         String name="";
+         String estado="";
 
      if(op.equals("Salon 1"))
      {
@@ -49,7 +55,7 @@ public class MenuAction extends Action
              {
                    id=itConsulta.getString("id");
                    name =itConsulta.getString("name");
-                    estado =itConsulta.getString("estado_disponible");
+                   estado =itConsulta.getString("estado_disponible");
 
              }
            
@@ -69,7 +75,7 @@ public class MenuAction extends Action
        
         finally
         {
-          conn.closeConnection();	
+          conn3.closeConnection();	
         }
 
 
@@ -109,7 +115,7 @@ public class MenuAction extends Action
        
         finally
         {
-          conn.closeConnection();	
+          conn3.closeConnection();	
         }
 
 
@@ -152,7 +158,7 @@ public class MenuAction extends Action
        
         finally
         {
-          conn.closeConnection();	
+          conn3.closeConnection();	
         }
 
      }

@@ -11,7 +11,7 @@
       <forward name="ok" path="/Menu.jsp"/>
       <forward name="nook" path="/Mala.jsp"/>
     </action>
-    <action path="/menu" type="mypackage1.MenuAction"/>
+    <action path="/menu" type="mypackage1.MenuAction" name="MenuForm" scope="request"/>
   </action-mappings>
   <message-resources parameter="mypackage1.ApplicationResources"/>
 </struts-config>
